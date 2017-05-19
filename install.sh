@@ -9,7 +9,7 @@ apt-get update -y
 
 # Necessary packages for autoconfig
 #######################
-apt-get install puppet git
+apt-get install puppet git -y
 
 # Git clone the main repo in the manifests dir
 #######################
