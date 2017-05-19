@@ -15,4 +15,4 @@ apt-get install puppet git -y
 #######################
 cd /etc/puppet/manifests
 git clone https://github.com/l1br3/puppet-main.git
-puppet apply manifests/puppet-main/main.pp --verbose
+puppet apply /etc/puppet/manifests/puppet-main/main.pp --verbose
